@@ -3,6 +3,6 @@
 
 char randchar()
 {
-    char letter = 'A' + (random() % 26);
+    int letter = 65 + (rand() % 26);
     return letter;
 } 
